@@ -1,0 +1,97 @@
+------------------------------
+  ID   First       Last        
+------------------------------
+ 340   Jeana       Altura      
+ 112   Nicholas    Bentley     
+ 725   Joseph      Bongar      
+ 202   Phoenix     Boyd        
+ 391   Kyle        Buniger     
+ 888   Michael     Burke       
+ 765   Jose        Cervantes   
+ 654   Darby       Corn        
+ 403   Joel        Cressy      
+ 208   Kelly       Galvin      
+ 129   Randy       Gilbert     
+ 951   Benjamin    Griggs      
+ 800   Eric        Hartline    
+ 255   Clayton     Johnson     
+ 337   Tyler       Jones       
+ 919   Justin      Kissell     
+ 798   Kellie      Larsen      
+ 476   Joe         Logsdon     
+ 707   Jocelyn     Malpica     
+ 199   JR          Mathson     
+ 591   Kyle        Ohta        
+ 770   Cesar       Ortiz       
+ 692   Munna       Rai         
+ 793   Daniel      Segraves    
+ 211   Han         Solo        
+ 105   Tyler       Stauffer    
+ 231   Gino        Stoneham    
+ 713   Nathaniel   Tracey      
+------------------------------
+Deleted entry for Han Solo: 
+------------------------------
+  ID   First       Last        
+------------------------------
+ 340   Jeana       Altura      
+ 112   Nicholas    Bentley     
+ 725   Joseph      Bongar      
+ 202   Phoenix     Boyd        
+ 391   Kyle        Buniger     
+ 888   Michael     Burke       
+ 765   Jose        Cervantes   
+ 654   Darby       Corn        
+ 403   Joel        Cressy      
+ 208   Kelly       Galvin      
+ 129   Randy       Gilbert     
+ 951   Benjamin    Griggs      
+ 800   Eric        Hartline    
+ 255   Clayton     Johnson     
+ 337   Tyler       Jones       
+ 919   Justin      Kissell     
+ 798   Kellie      Larsen      
+ 476   Joe         Logsdon     
+ 707   Jocelyn     Malpica     
+ 199   JR          Mathson     
+ 591   Kyle        Ohta        
+ 770   Cesar       Ortiz       
+ 692   Munna       Rai         
+ 793   Daniel      Segraves    
+ 105   Tyler       Stauffer    
+ 231   Gino        Stoneham    
+ 713   Nathaniel   Tracey      
+------------------------------
+Inserted Luke Skywalker into list: 
+------------------------------
+  ID   First       Last        
+------------------------------
+ 340   Jeana       Altura      
+ 112   Nicholas    Bentley     
+ 725   Joseph      Bongar      
+ 202   Phoenix     Boyd        
+ 391   Kyle        Buniger     
+ 888   Michael     Burke       
+ 765   Jose        Cervantes   
+ 654   Darby       Corn        
+ 403   Joel        Cressy      
+ 208   Kelly       Galvin      
+ 129   Randy       Gilbert     
+ 951   Benjamin    Griggs      
+ 800   Eric        Hartline    
+ 255   Clayton     Johnson     
+ 337   Tyler       Jones       
+ 919   Justin      Kissell     
+ 798   Kellie      Larsen      
+ 476   Joe         Logsdon     
+ 707   Jocelyn     Malpica     
+ 199   JR          Mathson     
+ 591   Kyle        Ohta        
+ 770   Cesar       Ortiz       
+ 692   Munna       Rai         
+ 793   Daniel      Segraves    
+ 333   Luke        Skywalker   
+ 105   Tyler       Stauffer    
+ 231   Gino        Stoneham    
+ 713   Nathaniel   Tracey      
+------------------------------

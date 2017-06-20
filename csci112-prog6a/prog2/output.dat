@@ -1,0 +1,50 @@
+Bubble Sort:
+N = 10000
+      -9971.6243    138.7377      10553.2436    22001.1219    32642.3536    
+      43544.1996    54634.9503    72368.1394    93020.9453    114442.6365   
+
+      Number of Compares = 99980001         Number of Moves = 75033678       
+
+         Compares per N = 9998                 Moves per N = 7503           
+      Time to complete sort = 550.4640  ms
+
+Selection Sort:
+N = 10000
+      -9971.6243    138.7377      10553.2436    22001.1219    32642.3536    
+      43544.1996    54634.9503    72368.1394    93020.9453    114442.6365   
+
+      Number of Compares = 49995000         Number of Moves = 29961          
+
+         Compares per N = 4999                 Moves per N = 2              
+      Time to complete sort = 132.3200  ms
+
+Insertion Sort: 
+N = 10000
+      -9971.6243    138.7377      10553.2436    22001.1219    32642.3536    
+      43544.1996    54634.9503    72368.1394    93020.9453    114442.6365   
+
+      Number of Compares = 25011226         Number of Moves = 75033678       
+
+         Compares per N = 2501                 Moves per N = 7503           
+      Time to complete sort = 230.8080  ms
+
+Quick Sort:
+N = 10000
+      -9971.6243    138.7377      10553.2436    22001.1219    32642.3536    
+      43544.1996    54634.9503    72368.1394    93020.9453    114442.6365   
+
+      Number of Compares = 193324           Number of Moves = 95445          
+
+         Compares per N = 19                   Moves per N = 9              
+      Time to complete sort = 1.3660    ms
+
+Improved Bubble Sort: 
+N = 10000
+      -9971.6243    138.7377      10553.2436    22001.1219    32642.3536    
+      43544.1996    54634.9503    72368.1394    93020.9453    114442.6365   
+
+      Number of Compares = 49990905         Number of Moves = 75033678       
+
+         Compares per N = 4999                 Moves per N = 7503           
+      Time to complete sort = 458.4790  ms
+

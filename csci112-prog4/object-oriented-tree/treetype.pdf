@@ -1,0 +1,1346 @@
+%!PS-Adobe-3.0
+%%Title: treetype.h
+%%For: jtcressy
+%%Creator: VIM - Vi IMproved 8.0 (2016 Sep 12)
+%%CreationDate: Mon Mar 13 11:28:58 2017
+%%DocumentData: Clean8Bit
+%%Orientation: Portrait
+%%Pages: (atend)
+%%PageOrder: Ascend
+%%BoundingBox: 61 42 577 752
+%%DocumentMedia: letter 612 792 0 () ()
+%%DocumentNeededResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%DocumentSuppliedResources: procset VIM-Prolog 1.4 1
+%%+ encoding VIM-latin1 1.0 0
+%%Requirements: collate color
+%%EndComments
+%%BeginDefaults
+%%PageResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%PageMedia: letter
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset VIM-Prolog
+%%BeginDocument: /usr/share/vim/vim80/print/prolog.ps
+%!PS-Adobe-3.0 Resource-ProcSet
+%%Title: VIM-Prolog
+%%Version: 1.4 1
+%%EndComments
+% Editing of this file is NOT RECOMMENDED.  You run a very good risk of causing
+% all PostScript printing from VIM failing if you do.  PostScript is not called
+% a write-only language for nothing!
+/packedarray where not{userdict begin/setpacking/pop load def/currentpacking
+false def end}{pop}ifelse/CP currentpacking def true setpacking
+/bd{bind def}bind def/ld{load def}bd/ed{exch def}bd/d/def ld
+/db{dict begin}bd/cde{currentdict end}bd
+/T true d/F false d
+/SO null d/sv{/SO save d}bd/re{SO restore}bd
+/L2 systemdict/languagelevel 2 copy known{get exec}{pop pop 1}ifelse 2 ge d
+/m/moveto ld/s/show ld /ms{m s}bd /g/setgray ld/r/setrgbcolor ld/sp{showpage}bd
+/gs/gsave ld/gr/grestore ld/cp/currentpoint ld
+/ul{gs UW setlinewidth cp UO add 2 copy newpath m 3 1 roll add exch lineto
+stroke gr}bd
+/bg{gs r cp BO add 4 -2 roll rectfill gr}bd
+/sl{90 rotate 0 exch translate}bd
+L2{
+/sspd{mark exch{setpagedevice}stopped cleartomark}bd
+/nc{1 db/NumCopies ed cde sspd}bd
+/sps{3 db/Orientation ed[3 1 roll]/PageSize ed/ImagingBBox null d cde sspd}bd
+/dt{2 db/Tumble ed/Duplex ed cde sspd}bd
+/c{1 db/Collate ed cde sspd}bd
+}{
+/nc{/#copies ed}bd
+/sps{statusdict/setpage get exec}bd
+/dt{statusdict/settumble 2 copy known{get exec}{pop pop pop}ifelse
+statusdict/setduplexmode 2 copy known{get exec}{pop pop pop}ifelse}bd
+/c{pop}bd
+}ifelse
+/ffs{findfont exch scalefont d}bd/sf{setfont}bd
+/ref{1 db findfont dup maxlength dict/NFD ed{exch dup/FID ne{exch NFD 3 1 roll
+put}{pop pop}ifelse}forall/Encoding findresource dup length 256 eq{NFD/Encoding
+3 -1 roll put}{pop}ifelse NFD dup/FontType get 3 ne{/CharStrings}{/CharProcs}
+ifelse 2 copy known{2 copy get dup maxlength dict copy[/questiondown/space]{2
+copy known{2 copy get 2 index/.notdef 3 -1 roll put pop exit}if pop}forall put
+}{pop pop}ifelse dup NFD/FontName 3 -1 roll put NFD definefont pop end}bd
+CP setpacking
+(\004)cvn{}bd
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%BeginResource: encoding VIM-latin1
+%%BeginDocument: /usr/share/vim/vim80/print/latin1.ps
+%!PS-Adobe-3.0 Resource-Encoding
+%%Title: VIM-latin1
+%%Version: 1.0 0
+%%EndComments
+/VIM-latin1[
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma /minus /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/grave /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+/Encoding defineresource pop
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%EndProlog
+%%BeginSetup
+612 792 0 sps
+1 nc
+F F dt
+T c
+%%IncludeResource: font Courier
+/_F0 /VIM-latin1 /Courier ref
+/F0 10 /_F0 ffs
+%%IncludeResource: font Courier-Bold
+/_F1 /VIM-latin1 /Courier-Bold ref
+/F1 10 /_F1 ffs
+%%IncludeResource: font Courier-Oblique
+/_F2 /VIM-latin1 /Courier-Oblique ref
+/F2 10 /_F2 ffs
+%%IncludeResource: font Courier-BoldOblique
+/_F3 /VIM-latin1 /Courier-BoldOblique ref
+/F3 10 /_F3 ffs
+/UO -1 d
+/UW 0.5 d
+/BO -2.5 d
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(treetype.h                                                                      Page 1)61.2 744.9 ms
+F0 sf
+0.753 0 0 r
+(//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::)61.2 724.9 ms
+(//        Binary Search Tree with Templated Datatype - Joel Cressy)61.2 714.9 ms
+(// NOT TESTED: ADT's in place of templated datatype. )61.2 704.9 ms
+(// So far, only tested with NATIVE datatypes. \(int, double, char, long, etc.\))61.2 694.9 ms
+(//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::)61.2 684.9 ms
+0.753 0 0.753 r
+(#pragma once)61.2 674.9 ms
+(#include )61.2 664.9 ms
+0 0 0.753 r
+(<iostream>)s
+0.753 0 0.753 r
+(#include )61.2 654.9 ms
+0 0 0.753 r
+(<vector>)s
+0 0.502 0 r
+(using)61.2 644.9 ms
+0 g
+( )s
+0 0.502 0 r
+(namespace)s
+0 g
+( )s
+0 0 0.753 r
+(std)s
+0 g
+(;)s
+0 0.502 0 r
+(template)61.2 634.9 ms
+0 g
+( <)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(class)61.2 624.9 ms
+0 g
+( treeNode {)s
+0 0.502 0 r
+(public)61.2 614.9 ms
+0 g
+(:)s
+(    )61.2 604.9 ms
+0.502 0.502 0 r
+(treeNode)s
+0 g
+(\(\);)s
+(    )61.2 594.9 ms
+0.502 0.502 0 r
+(treeNode)s
+0 g
+(\(T\);)s
+(    T data;)61.2 584.9 ms
+(    treeNode* left;)61.2 574.9 ms
+(    treeNode* right;)61.2 564.9 ms
+(};)61.2 554.9 ms
+0 0.502 0 r
+(template)61.2 544.9 ms
+0 g
+( <)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(class)61.2 534.9 ms
+0 g
+( treetype {)s
+0 0.502 0 r
+(public)61.2 524.9 ms
+0 g
+(:)s
+(    )61.2 514.9 ms
+0 0.502 0 r
+(enum)s
+0 g
+( sorttypes { PREORDER, INORDER, POSTORDER };)s
+(    )61.2 504.9 ms
+0.753 0 0 r
+(//modifiers)s
+0 g
+(    )61.2 494.9 ms
+0.502 0.502 0 r
+(treetype)s
+0 g
+(\(\);)s
+(    )61.2 484.9 ms
+0.502 0.502 0 r
+(treetype)s
+0 g
+(\(T\);)s
+(    )61.2 474.9 ms
+0 0.502 0 r
+(void)s
+0 g
+( )s
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(T\);)s
+(    )61.2 464.9 ms
+0 0.502 0 r
+(void)s
+0 g
+( )s
+0.502 0.502 0 r
+(del)s
+0 g
+(\(T\);)s
+(    )61.2 454.9 ms
+0 0.502 0 r
+(void)s
+0 g
+( )s
+0.502 0.502 0 r
+(setorder)s
+0 g
+(\(sorttypes\); )s
+(    )61.2 444.9 ms
+0.753 0 0 r
+(//accessors)s
+0 g
+(    )61.2 434.9 ms
+0 0.502 0 r
+(bool)s
+0 g
+( )s
+0.502 0.502 0 r
+(isEmpty)s
+0 g
+(\(\) { )s
+0 0.502 0 r
+(return)s
+0 g
+( root == )s
+0 0 0.753 r
+(NULL)s
+0 g
+(; })s
+(    )61.2 424.9 ms
+0 0.502 0 r
+(vector)s
+0 g
+(<T> )s
+0.502 0.502 0 r
+(toVector)s
+0 g
+(\(\);)s
+(    )61.2 414.9 ms
+0 0.502 0 r
+(int)s
+0 g
+( )s
+0.502 0.502 0 r
+(size)s
+0 g
+(\(\) { )s
+0 0.502 0 r
+(return)s
+0 g
+( treesize; })s
+(    T )61.2 404.9 ms
+0 0.502 0 r
+(operator)s
+0 g
+([]\()s
+0 0.502 0 r
+(int)s
+0 g
+( i\) {)s
+(        )61.2 394.9 ms
+0 0.502 0 r
+(vector)s
+0 g
+(<T> arr;)s
+(        )61.2 384.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(i > treesize\))s
+(        {)61.2 374.9 ms
+(            )61.2 364.9 ms
+0 0 0.753 r
+(cout)s
+0 g
+( << )s
+0 0 0.753 r
+("Index out of bounds")s
+0 g
+( << )s
+0.502 0.502 0 r
+(endl)s
+0 g
+(;)s
+(            )61.2 354.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( arr[)s
+0 0 0.753 r
+(0)s
+0 g
+(];)s
+(        })61.2 344.9 ms
+(        )61.2 334.9 ms
+0.502 0.502 0 r
+(treesort)s
+0 g
+(\(root, arr\);)s
+(        )61.2 324.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( arr[i];)s
+(    })61.2 314.9 ms
+0 0.502 0 r
+(private)61.2 294.9 ms
+0 g
+(:)s
+(    )61.2 284.9 ms
+0 0.502 0 r
+(int)s
+0 g
+( treesize;)s
+(    treeNode<T>* )61.2 274.9 ms
+0.502 0.502 0 r
+(getmax)s
+0 g
+(\(treeNode<T>*\);)s
+(    treeNode<T>* )61.2 264.9 ms
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(treeNode<T>*,T\);)s
+(    treeNode<T>* )61.2 254.9 ms
+0.502 0.502 0 r
+(del)s
+0 g
+(\(treeNode<T>*,T\);)s
+(    )61.2 244.9 ms
+0 0.502 0 r
+(bool)s
+0 g
+( )s
+0.502 0.502 0 r
+(treesort)s
+0 g
+(\(treeNode<T>*,)s
+0 0.502 0 r
+(vector)s
+0 g
+(<T>&\);)s
+(    treeNode<T> *root;)61.2 234.9 ms
+(    sorttypes sortOrder;)61.2 224.9 ms
+(};)61.2 214.9 ms
+0 0.502 0 r
+(template)61.2 194.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 184.9 ms
+0 g
+( treeNode<T>::)s
+0.502 0.502 0 r
+(treeNode)s
+0 g
+(\(\))s
+({)61.2 174.9 ms
+(    data = {};)61.2 164.9 ms
+(    left, right = )61.2 154.9 ms
+0 0 0.753 r
+(NULL)s
+0 g
+(;)s
+(})61.2 144.9 ms
+0 0.502 0 r
+(template)61.2 124.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 114.9 ms
+0 g
+( treeNode<T>::)s
+0.502 0.502 0 r
+(treeNode)s
+0 g
+(\(T newData\))s
+({)61.2 104.9 ms
+(    data = newData;)61.2 94.9 ms
+(    left, right = )61.2 84.9 ms
+0 0 0.753 r
+(NULL)s
+0 g
+(;)s
+(})61.2 74.9 ms
+0 0.502 0 r
+(template)61.2 54.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(istream)61.2 44.9 ms
+0 g
+(& )s
+0 0.502 0 r
+(operator)s
+0 g
+( >> \()s
+0 0.502 0 r
+(istream)s
+0 g
+(& is, treetype<T>& a\);)s
+re sp
+%%PageTrailer
+%%Page: 2 2
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(treetype.h                                                                      Page 2)61.2 744.9 ms
+F0 sf
+0 0.502 0 r
+(template)61.2 724.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(ostream)61.2 714.9 ms
+0 g
+(& )s
+0 0.502 0 r
+(operator)s
+0 g
+( << \()s
+0 0.502 0 r
+(ostream)s
+0 g
+(& os, treetype<T> a\);)s
+0 0.502 0 r
+(template)61.2 704.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+(treetype<T> )61.2 694.9 ms
+0 0.502 0 r
+(operator)s
+0 g
+( + \(treetype<T> a, treetype<T> b\);)s
+0 0.502 0 r
+(template)61.2 674.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 664.9 ms
+0 g
+( treetype<T>::)s
+0.502 0.502 0 r
+(treetype)s
+0 g
+(\(\))s
+({)61.2 654.9 ms
+(    root = )61.2 644.9 ms
+0 0 0.753 r
+(NULL)s
+0 g
+(;)s
+(    )61.2 634.9 ms
+0.753 0 0 r
+(//default sort direction is least-to-greatest with an inorder traversal)s
+0 g
+(    sortOrder = INORDER;)61.2 624.9 ms
+(    treesize = )61.2 614.9 ms
+0 0 0.753 r
+(0)s
+0 g
+(;)s
+(})61.2 604.9 ms
+0 0.502 0 r
+(template)61.2 584.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 574.9 ms
+0 g
+( treetype<T>::)s
+0.502 0.502 0 r
+(treetype)s
+0 g
+(\(T data\))s
+({)61.2 564.9 ms
+(    root = )61.2 554.9 ms
+0 0.502 0 r
+(new)s
+0 g
+( treeNode<T>\(data\);)s
+(    )61.2 544.9 ms
+0.753 0 0 r
+(//default sort direction is least-to-greatest with an inorder traversal)s
+0 g
+(    sortOrder = INORDER; )61.2 534.9 ms
+(    treesize = )61.2 524.9 ms
+0 0 0.753 r
+(1)s
+0 g
+(;)s
+(})61.2 514.9 ms
+0 0.502 0 r
+(template)61.2 494.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 484.9 ms
+0 g
+( )s
+0 0.502 0 r
+(void)s
+0 g
+( treetype<T>::)s
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(T data\))s
+({)61.2 474.9 ms
+(    )61.2 464.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(\(root = )s
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(root, data\)\)\) treesize++;)s
+(})61.2 454.9 ms
+0 0.502 0 r
+(template)61.2 434.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 424.9 ms
+0 g
+( treeNode<T>* treetype<T>::)s
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(treeNode<T>*C,T data\))s
+({)61.2 414.9 ms
+(    )61.2 404.9 ms
+0 0.502 0 r
+(if)s
+0 g
+(\(C != )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(    {)61.2 394.9 ms
+(        )61.2 384.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(data < C->data\))s
+(            C->left = )61.2 374.9 ms
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(C->left, data\);)s
+(        )61.2 364.9 ms
+0 0.502 0 r
+(else)s
+0 g
+( )s
+0.753 0 0 r
+(//\(data >= C->data\))s
+0 g
+(            C->right = )61.2 354.9 ms
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(C->right, data\);)s
+(    })61.2 344.9 ms
+(    )61.2 334.9 ms
+0 0.502 0 r
+(else)s
+0 g
+(    {)61.2 324.9 ms
+(        )61.2 314.9 ms
+0.753 0 0 r
+(//Current node is empty, insert directly here)s
+0 g
+(        C = )61.2 304.9 ms
+0 0.502 0 r
+(new)s
+0 g
+( treeNode<T>\(data\);)s
+(    })61.2 294.9 ms
+(    )61.2 284.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( C; )s
+0.753 0 0 r
+(//return the current pointer to update the links of the parent\(s\))s
+0 g
+(})61.2 274.9 ms
+0 0.502 0 r
+(template)61.2 254.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 244.9 ms
+0 g
+( )s
+0 0.502 0 r
+(void)s
+0 g
+( treetype<T>::)s
+0.502 0.502 0 r
+(del)s
+0 g
+(\(T data\))s
+({)61.2 234.9 ms
+(    )61.2 224.9 ms
+0 0.502 0 r
+(if)s
+0 g
+(\(\(root = )s
+0.502 0.502 0 r
+(del)s
+0 g
+(\(root, data\)\)\) treesize--;)s
+(})61.2 214.9 ms
+0 0.502 0 r
+(template)61.2 194.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 184.9 ms
+0 g
+( treeNode<T>* treetype<T>::)s
+0.502 0.502 0 r
+(del)s
+0 g
+(\(treeNode<T> *C, T data\))s
+({)61.2 174.9 ms
+(    )61.2 164.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C != )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(    {)61.2 154.9 ms
+(        )61.2 144.9 ms
+0.753 0 0 r
+(//find the node)s
+0 g
+(        )61.2 134.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(data < C->data\))s
+(            C->left = )61.2 124.9 ms
+0.502 0.502 0 r
+(del)s
+0 g
+(\(C->left, data\);)s
+(        )61.2 114.9 ms
+0 0.502 0 r
+(else)s
+0 g
+( )s
+0 0.502 0 r
+(if)s
+0 g
+( \(data > C->data\))s
+(            C->right = )61.2 104.9 ms
+0.502 0.502 0 r
+(del)s
+0 g
+(\(C->right, data\);)s
+(        )61.2 94.9 ms
+0 0.502 0 r
+(else)s
+0 g
+( )s
+0.753 0 0 r
+(//continue when data == C->data)s
+0 g
+(        {)61.2 84.9 ms
+(            )61.2 74.9 ms
+0.753 0 0 r
+(//case: no children)s
+0 g
+(            )61.2 64.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C->right == )s
+0 0 0.753 r
+(NULL)s
+0 g
+( && C->left == )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(            {)61.2 54.9 ms
+(                )61.2 44.9 ms
+0 0.502 0 r
+(delete)s
+0 g
+( C;)s
+re sp
+%%PageTrailer
+%%Page: 3 3
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(treetype.h                                                                      Page 3)61.2 744.9 ms
+F0 sf
+(                C = )61.2 724.9 ms
+0 0 0.753 r
+(NULL)s
+0 g
+(; )s
+0.753 0 0 r
+(//will return NULL to parent)s
+0 g
+(            })61.2 714.9 ms
+(            )61.2 704.9 ms
+0 0.502 0 r
+(else)s
+0 g
+( {)s
+(                )61.2 694.9 ms
+0.753 0 0 r
+(//case: one child)s
+0 g
+(                )61.2 684.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C->right == )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\) )s
+0.753 0 0 r
+(//If left contains data,)s
+0 g
+(                {)61.2 674.9 ms
+(                    )61.2 664.9 ms
+0.753 0 0 r
+(//store current node's memory address into temp)s
+0 g
+(                    treeNode<T>* temp = C; )61.2 654.9 ms
+(                    )61.2 644.9 ms
+0.753 0 0 r
+(//will return current node's left pointer to the parent)s
+0 g
+(                    C = C->left; )61.2 634.9 ms
+(                    )61.2 624.9 ms
+0 0.502 0 r
+(delete)s
+0 g
+( temp; )s
+(                })61.2 614.9 ms
+(                )61.2 604.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C->left == )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\) )s
+0.753 0 0 r
+(//if right contains data,)s
+0 g
+(                {)61.2 594.9 ms
+(                    treeNode<T>* temp = C; )61.2 584.9 ms
+0.753 0 0 r
+(//same process as above,)s
+0 g
+(                    )61.2 574.9 ms
+0.753 0 0 r
+(//but send the current node's right pointer to the parent)s
+0 g
+(                    C = C->right; )61.2 564.9 ms
+(                    )61.2 554.9 ms
+0 0.502 0 r
+(delete)s
+0 g
+( temp;)s
+(                })61.2 544.9 ms
+(                )61.2 534.9 ms
+0.753 0 0 r
+(//case: two children)s
+0 g
+(                )61.2 524.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C->left != )s
+0 0 0.753 r
+(NULL)s
+0 g
+( && C->right != )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(                {)61.2 514.9 ms
+(                    )61.2 504.9 ms
+0.753 0 0 r
+(//Get the largest node of the left subtree)s
+0 g
+(                    treeNode<T>* temp = )61.2 494.9 ms
+0.502 0.502 0 r
+(getmax)s
+0 g
+(\(C->left\);)s
+(                    )61.2 484.9 ms
+0.753 0 0 r
+(//Store that largest number in the current location)s
+0 g
+(                    C->data = temp->data;)61.2 474.9 ms
+(                    )61.2 464.9 ms
+0.753 0 0 r
+(//Delete the node containing that number by starting in the left s)s
+(ubtree)61.2 454.9 ms
+0 g
+(                    C->left = )61.2 444.9 ms
+0.502 0.502 0 r
+(del)s
+0 g
+(\(C->left, temp->data\);)s
+(                })61.2 434.9 ms
+(            })61.2 424.9 ms
+(        })61.2 414.9 ms
+(    })61.2 404.9 ms
+(    )61.2 394.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( C;)s
+(})61.2 384.9 ms
+0 0.502 0 r
+(template)61.2 364.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 354.9 ms
+0 g
+( )s
+0 0.502 0 r
+(void)s
+0 g
+( treetype<T>::)s
+0.502 0.502 0 r
+(setorder)s
+0 g
+(\(sorttypes a\))s
+({)61.2 344.9 ms
+(    )61.2 334.9 ms
+0.753 0 0 r
+(//Possible arguments: treetype::PREORDER, treetype::INORDER, treetype::POSTORDER)s
+0 g
+(    sortOrder = a;)61.2 324.9 ms
+(})61.2 314.9 ms
+0 0.502 0 r
+(template)61.2 294.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 284.9 ms
+0 g
+( )s
+0 0.502 0 r
+(vector)s
+0 g
+(<T> treetype<T>::)s
+0.502 0.502 0 r
+(toVector)s
+0 g
+(\(\))s
+({)61.2 274.9 ms
+(    )61.2 264.9 ms
+0 0.502 0 r
+(vector)s
+0 g
+(<T> vec;)s
+(    )61.2 254.9 ms
+0.502 0.502 0 r
+(treesort)s
+0 g
+(\(root, vec\);)s
+(    )61.2 244.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( vec;)s
+(})61.2 234.9 ms
+0 0.502 0 r
+(template)61.2 214.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 204.9 ms
+0 g
+( treeNode<T>* treetype<T>::)s
+0.502 0.502 0 r
+(getmax)s
+0 g
+(\(treeNode<T>*C\))s
+({)61.2 194.9 ms
+(    )61.2 184.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C == )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(        )61.2 174.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( )s
+0 0 0.753 r
+(NULL)s
+0 g
+(;)s
+(    )61.2 164.9 ms
+0.753 0 0 r
+(//The right children will always be the highest number in a BST)s
+0 g
+(    )61.2 154.9 ms
+0 0.502 0 r
+(while)s
+0 g
+( \(C->right != )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(        C = C->right;)61.2 144.9 ms
+(    )61.2 134.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( C;)s
+(})61.2 124.9 ms
+0 0.502 0 r
+(template)61.2 104.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 94.9 ms
+0 g
+( )s
+0 0.502 0 r
+(bool)s
+0 g
+( treetype<T>::)s
+0.502 0.502 0 r
+(treesort)s
+0 g
+(\(treeNode<T>* C, )s
+0 0.502 0 r
+(vector)s
+0 g
+(<T>& arr\))s
+({)61.2 84.9 ms
+(    )61.2 74.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(C != )s
+0 0 0.753 r
+(NULL)s
+0 g
+(\))s
+(    {)61.2 64.9 ms
+(        )61.2 54.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(sortOrder == PREORDER\) arr.)s
+0.502 0.502 0 r
+(push_back)s
+0 g
+(\(C->data\);)s
+(        )61.2 44.9 ms
+0.502 0.502 0 r
+(treesort)s
+0 g
+(\(C->left, arr\);)s
+re sp
+%%PageTrailer
+%%Page: 4 4
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(treetype.h                                                                      Page 4)61.2 744.9 ms
+F0 sf
+(        )61.2 724.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(sortOrder == INORDER\) arr.)s
+0.502 0.502 0 r
+(push_back)s
+0 g
+(\(C->data\);)s
+(        )61.2 714.9 ms
+0.502 0.502 0 r
+(treesort)s
+0 g
+(\(C->right, arr\);)s
+(        )61.2 704.9 ms
+0 0.502 0 r
+(if)s
+0 g
+( \(sortOrder == POSTORDER\) arr.)s
+0.502 0.502 0 r
+(push_back)s
+0 g
+(\(C->data\);)s
+(        )61.2 694.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( )s
+0 0 0.753 r
+(true)s
+0 g
+(;)s
+(    })61.2 684.9 ms
+(    )61.2 674.9 ms
+0 0.502 0 r
+(else)s
+0 g
+(    {)61.2 664.9 ms
+(        )61.2 654.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( )s
+0 0 0.753 r
+(false)s
+0 g
+(;)s
+(    })61.2 644.9 ms
+(})61.2 634.9 ms
+0 0.502 0 r
+(template)61.2 614.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 604.9 ms
+0 g
+( )s
+0 0.502 0 r
+(istream)s
+0 g
+( & )s
+0 0.502 0 r
+(operator)s
+0 g
+( >> \()s
+0 0.502 0 r
+(istream)s
+0 g
+( & is, treetype<T>& a\))s
+({)61.2 594.9 ms
+(    T data = {};)61.2 584.9 ms
+(    )61.2 574.9 ms
+0 0.502 0 r
+(while)s
+0 g
+( \(!is.)s
+0.502 0.502 0 r
+(eof)s
+0 g
+(\(\)\))s
+(    {)61.2 564.9 ms
+(        is >> data;)61.2 554.9 ms
+(        a.)61.2 544.9 ms
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(data\);)s
+(    })61.2 534.9 ms
+(    )61.2 524.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( is;)s
+(})61.2 514.9 ms
+0 0.502 0 r
+(template)61.2 494.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 484.9 ms
+0 g
+( )s
+0 0.502 0 r
+(ostream)s
+0 g
+( & )s
+0 0.502 0 r
+(operator)s
+0 g
+(<<\()s
+0 0.502 0 r
+(ostream)s
+0 g
+( & os, treetype<T> a\))s
+({)61.2 474.9 ms
+(    )61.2 464.9 ms
+0 0.502 0 r
+(for)s
+0 g
+( \()s
+0 0.502 0 r
+(int)s
+0 g
+( i = )s
+0 0 0.753 r
+(0)s
+0 g
+(; i < a.)s
+0.502 0.502 0 r
+(size)s
+0 g
+(\(\); i++\))s
+(        os << a[i];)61.2 454.9 ms
+(    )61.2 444.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( os;)s
+(})61.2 434.9 ms
+0 0.502 0 r
+(template)61.2 414.9 ms
+0 g
+(<)s
+0 0.502 0 r
+(class)s
+0 g
+( T>)s
+0 0.502 0 r
+(inline)61.2 404.9 ms
+0 g
+( treetype<T> )s
+0 0.502 0 r
+(operator)s
+0 g
+(+\(treetype<T> a, treetype<T> b\))s
+({)61.2 394.9 ms
+(    treetype<T> out;)61.2 384.9 ms
+(    )61.2 374.9 ms
+0 0.502 0 r
+(for)s
+0 g
+( \()s
+0 0.502 0 r
+(int)s
+0 g
+( i = )s
+0 0 0.753 r
+(0)s
+0 g
+(; i < a.)s
+0.502 0.502 0 r
+(size)s
+0 g
+(\(\); i++\))s
+(        out.)61.2 364.9 ms
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(a[i]\);)s
+(    )61.2 354.9 ms
+0 0.502 0 r
+(for)s
+0 g
+( \()s
+0 0.502 0 r
+(int)s
+0 g
+( i = )s
+0 0 0.753 r
+(0)s
+0 g
+(; i < b.)s
+0.502 0.502 0 r
+(size)s
+0 g
+(\(\); i++\))s
+(        out.)61.2 344.9 ms
+0.502 0.502 0 r
+(ins)s
+0 g
+(\(b[i]\);)s
+(    )61.2 334.9 ms
+0 0.502 0 r
+(return)s
+0 g
+( out;)s
+(})61.2 324.9 ms
+re sp
+%%PageTrailer
+%%Trailer
+%%Pages: 4
+%%EOF
+

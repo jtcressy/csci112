@@ -1,0 +1,34 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                   Primary Assignment Using Iterative Insert
+Recursive inorder traversal:
+7 11 18 20 23 25 30 35 38 49 50 52 53 57 71 80 93 
+
+Deleted node 71, print using recursive postorder traversal:
+7 20 18 11 25 35 30 23 49 52 53 50 80 93 57 38 
+
+Deleted node 38, print using recursive preorder traversal:
+35 23 11 7 18 20 30 25 57 50 49 53 52 93 80 
+
+iterative inorder traversal:
+7 11 18 20 23 25 30 35 49 50 52 53 57 80 93 
+
+iterative preorder traversal:
+35 23 11 7 18 20 30 25 57 50 49 53 52 93 80 
+
+iterative postorder traversal:
+7 20 18 11 25 30 23 49 52 53 50 80 93 57 35 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                       This time, with recursive insert
+Recursive Inorder: 7 11 18 20 23 25 30 35 38 49 50 52 53 57 71 80 93 
+
+Recursive preorder: 38 23 11 7 18 20 30 25 35 57 50 49 53 52 93 71 80 
+
+Recursive postorder: 7 20 18 11 25 35 30 23 49 52 53 50 80 71 93 57 38 
+
+Iterative inorder: 7 11 18 20 23 25 30 35 38 49 50 52 53 57 71 80 93 
+
+Iterative preorder: 38 23 11 7 18 20 30 25 35 57 50 49 53 52 93 71 80 
+
+Iterative postorder: 7 20 18 11 25 35 30 23 49 52 53 50 80 71 93 57 38 
+

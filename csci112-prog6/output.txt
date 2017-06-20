@@ -1,0 +1,1 @@
+Numerator = 1 and Denominator = 2

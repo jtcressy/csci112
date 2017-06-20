@@ -1,0 +1,42 @@
+                                Credit  Number of   Total Credit
+CRN         Course              Hours   Students    Hours          Professor 
+--------------------------------------------------------------------------------
+12836       Algebra               4          40         160        Boole     
+21780       Trigonometry          3          33          99        Euler     
+52266       Algebra               4          44         176        Hughes    
+35628       Precalculus           5          27         135        Jones     
+41805       Geometry              5          35         175        Pyth      
+11434       Algebra               3          27          81        Boole     
+66886       Trigonometry          5          18          90        Patton    
+78799       Calculus              3           4          12        Newton    
+22531       Geometry              3          11          33        DesCartes 
+61443       Algebra               4          35         140        Pascal    
+89984       Calculus              5          10          50        Leibniz   
+--------------------------------------------------------------------------------
+Totals:                          43         283        1150
+--------------------------------------------------------------------------------
+                                Credit  Number of   Total Credit
+CRN         Course              Hours   Students    Hours          Professor 
+--------------------------------------------------------------------------------
+52266       Algebra               4          44         176        Hughes    
+41805       Geometry              5          35         175        Pyth      
+12836       Algebra               4          40         160        Boole     
+61443       Algebra               4          35         140        Pascal    
+35628       Precalculus           5          27         135        Jones     
+21780       Trigonometry          3          33          99        Euler     
+66886       Trigonometry          5          18          90        Patton    
+11434       Algebra               3          27          81        Boole     
+89984       Calculus              5          10          50        Leibniz   
+22531       Geometry              3          11          33        DesCartes 
+78799       Calculus              3           4          12        Newton    
+--------------------------------------------------------------------------------
+Average number of students per section: 25.00
+--------------------------------------------------------------------------------
+Course                    Total Students
+----------------------------------------
+Algebra                        146
+Precalculus                     27
+Trigonometry                    51
+Geometry                        46
+Calculus                        14
+----------------------------------------

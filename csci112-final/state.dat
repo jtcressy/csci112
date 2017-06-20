@@ -1,0 +1,6 @@
+resword integer newtkn  delim   newtkn  newtkn  newtkn  newtkn
+resword var     newtkn  delim   newtkn  newtkn  newtkn  newtkn
+var     var     newtkn  delim   newtkn  newtkn  newtkn  newtkn
+resword integer real    delim   newtkn  newtkn  newtkn  newtkn
+resword real    newtkn  delim   newtkn  newtkn  newtkn  newtkn
+resword integer newtkn  newtkn  newtkn  newtkn  newtkn  newtkn

@@ -1,0 +1,26 @@
+Step 4 - Output
+
+Array version of stack:
+::::::::::::::::
+95    Frank     
+85    Susan     
+70    Vinnie    
+60    Mel       
+50    Harry     
+40    Antonio   
+30    Rhonda    
+20    Joe       
+10    Sally     
+
+Dynamically linked version of stack:
+::::::::::::::::
+95    Frank     
+85    Susan     
+70    Vinnie    
+60    Mel       
+50    Harry     
+40    Antonio   
+30    Rhonda    
+20    Joe       
+10    Sally     
+::::::::::::::::

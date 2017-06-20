@@ -1,0 +1,146 @@
+Scan Results
+Token   type           
+------- -------------- 
+10      Integer        
+rem     Reserved Word  
+12      Integer        
+input   Reserved Word  
+x1      Variable       
+,       Delimiter      
+y       Variable       
+13      Integer        
+if      Reserved Word  
+x1      Variable       
+<       Delimiter      
+y       Variable       
+then    Reserved Word  
+goto    Reserved Word  
+15      Integer        
+14      Integer        
+zee     Variable       
+=       Delimiter      
+x1      Variable       
+-       Delimiter      
+y       Variable       
+11      Integer        
+goto    Reserved Word  
+16      Integer        
+15      Integer        
+zee     Variable       
+=       Delimiter      
+x1      Variable       
++       Delimiter      
+2       Integer        
+*       Delimiter      
+y       Variable       
+16      Integer        
+print   Reserved Word  
+x1      Variable       
+,       Delimiter      
+y       Variable       
+,       Delimiter      
+zee     Variable       
+17      Integer        
+for     Reserved Word  
+i       Variable       
+=       Delimiter      
+1       Integer        
+to      Reserved Word  
+16      Integer        
+step    Reserved Word  
+5       Integer        
+18      Integer        
+print   Reserved Word  
+i       Variable       
+19      Integer        
+next    Reserved Word  
+i       Variable       
+20      Integer        
+input   Reserved Word  
+st%     Variable       
+21      Integer        
+print   Reserved Word  
+"       Delimiter           
+Improper Usage: $   
+",      Delimiter      
+st%     Variable       
+22      Integer        
+input   Reserved Word  
+x       Variable       
+23      Integer        
+if      Reserved Word  
+y       Variable       
+>=      Delimiter      
+x1      Variable       
+then    Reserved Word  
+x       Variable       
+=       Delimiter      
+y       Variable       
+^       Delimiter      
+3       Integer        
+24      Integer        
+print   Reserved Word  
+x1      Variable       
+,       Delimiter      
+Illegal Character: #
+25      Integer        
+end     Reserved Word  
+------- -------------- 
+
+Action Table
+                  Letter         Digit          Period         Delimiter      Blank          % or $         EOLN           Illegal        
+----------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- 
+New Token       |       1              1              5              1              6              5              6              7        
+Reserved Word   |       1              1              4              8              2             10              2             11        
+Variable        |       1              1              4              9              3             12              3             13        
+Integer         |       9              1              1              9              3              4              3             13        
+Real            |       9              1              4              9              3              4              3             13        
+Delimiter       |       9              9              4             12              3              4              3             13        
+----------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- 
+
+State Table
+                  Letter         Digit          Period         Delimiter      Blank          % or $         EOLN           Illegal        
+----------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- 
+New Token       | Reserved Word     Integer       New Token      Delimiter      New Token      New Token      New Token      New Token    
+Reserved Word   | Reserved Word     Variable      New Token      Delimiter      New Token      New Token      New Token      New Token    
+Variable        |    Variable       Variable      New Token      Delimiter      New Token      New Token      New Token      New Token    
+Integer         | Reserved Word     Integer          Real        Delimiter      New Token      New Token      New Token      New Token    
+Real            | Reserved Word       Real        New Token      Delimiter      New Token      New Token      New Token      New Token    
+Delimiter       | Reserved Word     Integer       New Token      New Token      New Token      New Token      New Token      New Token    
+----------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- 
+
+Explanations:
+Action Explanation                      
+------ ---------------------------------
+1      Load character and continue      
+2      Compare with table of reserved words, print token, reinitialize token
+3      Print token, reinitialize token  
+4      Print token, write "Improper Usage", print character, reinitialize token
+5      Write "Improper usage", print character
+6      Continue                         
+7      Write "Illegal character", print character
+8      Compare with table of reserved words, print token, reinitialize token, load char
+9      Print token, reinitialize token, load character
+10     Load character, change state to variable, print token, reinitialize token
+11     Compare with table of reserved words, print token, write "Illegal Character", print char
+12     Load character, print token, reinitialize token
+13     Print Token, write "Illegal Character", print character, reinitialize token
+------ ---------------------------------
+
+Reserved words
+----------------------------------------
+and
+end
+for
+goto
+if
+input
+next
+or
+print
+read
+rem
+step
+then
+to
+----------------------------------------
