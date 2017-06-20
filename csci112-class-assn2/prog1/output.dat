@@ -1,0 +1,12 @@
+Step A - Testing with Integers:
+Before swap: a = 2, b = 4
+After swap: a = 4, b = 2
+
+Step B - Testing with Strings:
+Before swap: a = Henry, b = James
+After swap: a = James, b = Henry
+
+Step C - Testing with struct (int, string):
+Before swap: a = {1234, "Jim"} b = {9894, "Zelda"}
+After swap: a = {9894, "Zelda"} b = {1234, "Jim"}
+
